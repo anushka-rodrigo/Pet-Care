@@ -1,0 +1,42 @@
+
+
+main {
+    background-image: url("Practical Tutorial 03 images/image13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+    background-position: center -100px;
+}
+
+main fieldset{
+    border: 5px solid green;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5;
+    padding: 20px;
+    margin: 100px 500px;
+    height: 500px;
+}
+
+main button{
+    border: 3px solid red;
+    padding: 10px;
+}
+
+main button:hover{
+    cursor: pointer;
+}
+
+main hr{
+    border: 3px solid white;
+}
+main input{
+    width: 500px;
+    border: 1px solid white;
+    height: 25px;
+}
+
+main h2{
+    color: yellow;
+}

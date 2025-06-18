@@ -1,0 +1,49 @@
+main {
+    background-image: url("Practical Tutorial 03 images/image08.jpg");
+    background-size: 500px auto;
+    background-repeat: repeat-x;
+    width: 1500px;
+    min-height: 500px;
+}
+
+form {
+    border-radius: 10px;
+    background-color: teal;
+    padding: 20px;
+    margin: 100px 450px;
+    width: 700px;
+    height: 400px;
+}
+
+hr {
+    width: 30%;
+    color: black;
+    border: 3px solid black;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px; 
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+textarea{
+    width: 100%;
+}
+
+textarea:focus{
+    background-color: yellow;
+}
+
+#submit {
+    letter-spacing: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid goldenrod;
+    background-color: goldenrod;
+    border-radius: 50px;
+}

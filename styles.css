@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: Impact,Arial,sans-serif;
+    letter-spacing: 20px;
+    text-decoration: none;
+}
+
+div.shop-head {
+    display: flex; /* flex takes items as a box*/
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+
+}
+
+
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav li a:hover {
+    background-color: brown;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around; /*even spacing between sections*/
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.petcarelogo{
+    border: 3px solid red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /*radius gud practise is half from height, thats why 50%, otherwise 100% also works*/
+}
+
+#s1 p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+#s2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#s2 li a{
+    color: white;
+    text-decoration: none;
+}
+
+.icon {
+    display: inline-block; /* allows setting width and height to put items next to each other*/
+    width: 32px;
+    height: 32px;
+    background-image: url("Practical Tutorial 03 images/image09.jpg");
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle; /* aligns the icon with the text */
+}
+
+/*icont row 2*/
+.icon-home {background-position: 0px -100px;}
+.icon-location {background-position: -33.33px -128px;}
+.icon-email {background-position: -66.66px -128px;}
+.icon-globe {background-position: -100px -100px;}
+.icon-phone {background-position: -133.33px -128px;}
+.icon-message {background-position: -166.66px -130px;}
+
+#s5 {
+    background-color: grey;
+    text-align: center;
+    color: white;
+}
+

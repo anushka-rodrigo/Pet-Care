@@ -1,0 +1,100 @@
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#pic {
+    flex: 1;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#pic img{
+    height: 100%;
+    width: 100%;
+    margin: 0 50px;
+    object-fit: cover;
+    display: block;
+}
+
+#about{
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+
+#about h1{
+    margin-left: 200px;
+    text-align: left;
+}
+
+#about hr{
+    width: 200px;
+    border: 3px solid black;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-container button{
+    width: 200px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 18px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin: 0; /*removes spacing so the line can touch the buttons*/
+}
+
+.button-container button:hover{
+    background-color: green;
+    cursor: help;
+}
+
+.icon1 {
+    display: inline-block; /* allows setting width and height to put items next to each other*/
+    width: 40px;
+    height: 40px;
+    background-image: url("Practical Tutorial 03 images/socialmedia.jpg");
+    background-size: 420px 240px;
+}
+
+/*icon rows*/
+.icon1-facebook {background-position: -20px -18px;}
+.icon1-instagram {background-position: -120px -18px;}
+.icon1-youtube {background-position: -315px -18px;}
+.icon1-whatsapp {background-position: -118px -132px;}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.line{
+    width: 2px;
+    height: 30px;
+    background-color: black;
+    margin: 0; /*centers the line*/
+}
+
+.icon1-facebook:hover {background-position: -20px -68px; cursor: none;}
+.icon1-instagram:hover {background-position: -120px -68px; cursor: none;}
+.icon1-youtube:hover {background-position: -315px -68px; cursor: none;}
+.icon1-whatsapp:hover {background-position: -118px -182px; cursor: none;}
